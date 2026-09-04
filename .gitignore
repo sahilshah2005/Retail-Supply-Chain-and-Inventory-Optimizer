@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Model artifacts (regenerated at runtime)
+models/*.pkl
+models/*.joblib
+
+# Reports (generated at runtime)
+reports/*.csv
+reports/*.xlsx
+
+# Secrets & credentials
+.env
+*.key
+*.pem
+credentials.json
+secrets.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
